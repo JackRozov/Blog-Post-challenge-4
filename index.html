@@ -1,33 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./Assets/css/blog.css" />
-    <link rel="stylesheet" type="text/css" href="./Assets/css/styles.css" />
-  
-    <header class="header">
-    <div class="identity">
-      <h1 id="logo"><a href="#">Whats on your mind</a></h1>
-      
-    </div>  
-  </header>
+<html lang="en-US">
 
-  <form>
-    <label for="username">Username:</label><br>
-    <input type="text" id="username" name="username"><br>
-    <label for="title">Title:</label><br>
-    <input type="text" id="title" name="title">
-    <label for = "comment" > Comment"</label><br>
-    <textarea id ="comment" name="comment" rows = "7" cols="35">
-    </textarea>
-    <input id="clickMe" type="button" value="clickme" onclick="doFunction();" />
-    
-  </form>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link id="light" rel="stylesheet" href="./Assets/css/form.css">
+    <link id="dark" rel="stylesheet" href="./Assets/css/styles.css">
+</head>
 
-    
-      
-<footer class="footer">
-    <a href="https://jackrozov.github.io/Portfolio-challenge-2-/" class="box-hover">Jack Rozovsky Productions</a></li> 
-</footer>
+<body class="container dark light">
+    <nav>
+        <label>
+            <input type="checkbox" id="darkmode">
+            <h3>Dark Mode</h3>
+        </label>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- square -->
+        <section>
+            <h1>My first blog</h1>
+        </section>
+        <!-- rectangle -->
+        <div>
+            <ul>
+                <label>
+                    <li>Username</li>
+                </label>
+                <input type="text" id="username" name="Username">
+                <br>
+                <label>
+                    <li>Title</li>
+                </label>
+                <input type="text" id="title" name="title">
+                <br>
+                <label>
+                    <li>Content</li>
+                </label>
+                <textarea type="text" id="content" name="content"></textarea>
+                <br>
+                <button id="button"><a href="./blog.html">Submit</a></button>
+            </ul>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./assets/js/read.js"></script>
+    <script src="./assets/js/logic.js"></script>
+    <script src="./assets/js/form.js"></script>
+</body>
+
 </html>

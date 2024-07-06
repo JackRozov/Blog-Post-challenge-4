@@ -1,4 +1,8 @@
-function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-  }
+
+const renderData = function() {
+    const blogs = readData()
+    for (const blog of blogs) {
+        console.log(blog)
+    }
+}
+renderData()
