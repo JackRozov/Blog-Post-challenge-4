@@ -5,19 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <link rel="stylesheet" href="./assets/css/blog.css">
+    <link id="lightblog" rel="stylesheet" href="./Assets/css/bloglight.css">
+    <link id="darkblog" rel="stylesheet" href="./Assets/css/blog.css">
 </head>
 
 <body>
 <!-- Navigation Bar -->
    
-    <nav>
-        <ul>
-            <li><button><a href="./index.html">Back</a></button></li>
-            <li><a href="./blog.html">Blog</a></li>
-        </ul>
-    </nav>
-
+<nav>
+    <label>
+        <input type="checkbox" id="darkmode">
+        <label for="darkmode">
+            <img src ="./Assets/images/download.jpg" alt ="sun/moon">
+    </label>
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+    </ul>
+</nav>
     <!-- Main -->
     <main>
         <h1>Display of Blog Content</h1>

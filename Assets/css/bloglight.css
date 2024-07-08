@@ -1,6 +1,6 @@
-dark{
+light {
     nav {
-        background-color: black;
+        background-color: rgb(245, 244, 244);
         border: solid white 5px;
         display: flex;
         justify-content: flex-end;
