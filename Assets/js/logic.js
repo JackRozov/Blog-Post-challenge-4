@@ -18,6 +18,28 @@ darkmode.addEventListener('click', function () {
     container.setAttribute('class', 'dark');
   }
 });
+//blog
+
+// Access toggle switch HTML element
+const darkmodeblog = document.querySelector('#darkmodeblog');
+const containerblog = document.querySelector('.containerblog');
+
+// Set default mode to light
+let modeblog = 'darkblog';
+
+// Listen for a click event on toggle switch
+darkmodeblog.addEventListener('click', function () {
+  // If mode is dark, apply light background
+  if (modeblog === 'darkblog') {
+    modeblog = 'lightblog';
+    containerblog.setAttribute('class', 'lightblog');
+  }
+  // If mode is light, apply dark background
+  else {
+    modeblog = 'darkblog';
+    containerblog.setAttribute('class', 'darkblog');
+  }
+});
 
 
 
