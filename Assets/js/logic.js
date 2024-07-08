@@ -2,10 +2,10 @@
 const darkmode = document.querySelector('#darkmode');
 const container = document.querySelector('.container');
 
-// Set default mode to light
+// Dark default
 let mode = 'dark';
 
-// Listen for a click event on toggle switch
+//click event on toggle switch
 darkmode.addEventListener('click', function () {
   // If mode is dark, apply light background
   if (mode === 'dark') {
@@ -24,10 +24,10 @@ darkmode.addEventListener('click', function () {
 const darkmodeblog = document.querySelector('#darkmodeblog');
 const containerblog = document.querySelector('.containerblog');
 
-// Set default mode to light
+// Dark Default
 let modeblog = 'darkblog';
 
-// Listen for a click event on toggle switch
+// click event on toggle switch
 darkmodeblog.addEventListener('click', function () {
   // If mode is dark, apply light background
   if (modeblog === 'darkblog') {
