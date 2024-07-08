@@ -29,7 +29,7 @@
       }
   
 
-  /* Big Box */
+  /* Main Box */
   main {
       border: solid #FAEBD7;
       display: flex;
@@ -45,8 +45,8 @@
       section {
           background-color: #b4b22b;
           border: solid #110f0b;
-          height: 600px;
-          width: 600px;
+          height: 800px;
+          width: 800px;
           border-radius: 50%;
           display: flex;
           align-items: center;
